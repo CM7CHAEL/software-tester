@@ -1,0 +1,23 @@
+.cardBackground {
+  background:url('https://brand24.com/blog/wp-content/uploads/2015/07/7-Steps-to-formulate-a-strong-hypothesis-for-your-next-A-B-test.jpg');
+  height: 280px;
+  background-size: cover;
+}
+h5 {
+  color: #ffff;
+  float: right !important;
+  font-size: 40px;
+}
+
+.card-text {
+  color: #ffff;
+  margin-top: 7%;
+  width: 100%;
+  font-size: 18px;
+  text-align: right;
+}
+
+.cardMedium {
+  background: #ddd;
+  height: 400px;
+}
