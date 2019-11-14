@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navegacion from './components/Navegacion/Navegacion'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
                 <li>Espacio de networking.</li>
                 <li>Posibilidad de volver a tomar el mismo curso gratis.</li>
               </ul>
+              <img height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd72wQCxnxqNTrPnaYIA1CLUpMB6ky9oivwSZKY4yHTFPVVlTItg&s" />
               </div>
               <div class="col-sm">
               Modalidad Distancia
@@ -101,10 +103,12 @@ function App() {
                 <li>Grabación de las clases disponibles para ver en otro momento.</li>
                 <li>Asistencia administrativa personalizada todos los días.</li>
               </ul>
+              <img height="150px" src="http://www.capacitacionempresarial.la/uploads/1/6/1/2/16123856/published/ecuadoruniversitario-2f76fc4.jpg?1552920204" />
               </div>
             </div>
           </div>
         </div>
+        <Footer></Footer>
       </div>
   </div>
   );
