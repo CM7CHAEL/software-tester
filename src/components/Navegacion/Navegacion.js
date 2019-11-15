@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navegacion.css';
+
 function Navegacion() {
   return (
     <div className="App">

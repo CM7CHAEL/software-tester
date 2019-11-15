@@ -1,12 +1,19 @@
 import React from 'react';
 import './App.css';
 import Navegacion from './components/Navegacion/Navegacion'
+import Concep from './components/Concept'
 import Footer from './components/Footer/Footer'
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navegacion></Navegacion>
+      <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Navegacion} />
+        <Route path="/concepto" component={Concep} />
+      </Switch>
+      </BrowserRouter>
       <div class="container mt-5 mb-5">
       <div class="row">
       <div  class="col-md-6">
