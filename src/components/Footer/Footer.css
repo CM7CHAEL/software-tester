@@ -1,10 +1,8 @@
+
 footer {
-  width:100%;
+  width:auto;
   background: #2c3039;
   padding-top: 10px;
-}
-.container {
-  background: #2c3039;
 }
 
 .titulo-pie-pagina {
