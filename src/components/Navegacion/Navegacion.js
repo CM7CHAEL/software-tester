@@ -3,7 +3,7 @@ import './Navegacion.css';
 
 function Navegacion() {
   return (
-    <div className="App">
+    <div className="Navegacion">
       <div className="card w-100 cardBackground">
         <div className="card-body">
           <h5 className="card-title">Software Tester QA</h5>
