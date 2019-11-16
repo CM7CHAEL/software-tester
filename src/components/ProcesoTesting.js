@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Concept() {
+function ProcesoTesting() {
   return (
     <div className="App">
-       <h2>concepto xdxdx</h2> 
+       <h2>testnig</h2>
     </div>
   );
 }
 
-export default Concept;
+export default ProcesoTesting;
